@@ -29,7 +29,7 @@
 17. Export the mounts for webservers’ subnet cidr to connect as clients. For simplicity, install all three Web Servers inside the same subnet, but in production set up you would probably want to separate each tier inside its own subnet for higher level of security.
 18. Set up permission that will allow our Web servers to read, write and execute files on NFS.
 
-![pix9](https://user-images.githubusercontent.com/74002629/183051442-69ca2423-75d4-4b3c-9ac1-afe5ee373b0b.PNG)
+![apache 2](https://github.com/Hatem-sudo/Project-3-Devops-Tooling-Website-Solution-with-Load-Balancer-Solution/assets/113099054/7b8970c9-7f4f-4d49-8cbe-c10525c8fda1)
 19. In your choosen text editor, configure access to NFS for clients within the same subnet (my Subnet CIDR – 172.31.80.0/20 ):
 
 20. Check which port is used by NFS and open it using Security Groups (add new Inbound Rule)
@@ -41,7 +41,7 @@
 2. SSH in to the provisioned DB server and run an update on the server.
 3. Install mysql-server.
 4. Create a database.
-![pix10](https://user-images.githubusercontent.com/74002629/183051459-c2a2c22e-44ec-453b-9d2b-44000ceccae1.PNG)
+![apache 2  2](https://github.com/Hatem-sudo/Project-3-Devops-Tooling-Website-Solution-with-Load-Balancer-Solution/assets/113099054/62fe9888-a690-4597-8252-43bbf410e52b)
 
 ### Step 3 — Prepare the Web Servers
 
@@ -105,7 +105,6 @@ We can solve this by configuring local domain name resolution. The easiest way i
 ![Configfile](https://github.com/Hatem-sudo/Project-3-Devops-Tooling-Website-Solution-with-Load-Balancer-Solution/assets/113099054/bf043161-c78f-4e8e-8387-af233ea7896d)
 
 4. can try to curl your Web Servers from LB locally .
-![pix8](https://user-images.githubusercontent.com/74002629/183334784-ef5e63ba-78d2-4241-892b-b6669940d54c.PNG)
-![pix9](https://user-images.githubusercontent.com/74002629/183334797-ad9753e0-d34b-47f8-9146-66ff4c9de5f0.PNG)
+![101](https://github.com/Hatem-sudo/Project-3-Devops-Tooling-Website-Solution-with-Load-Balancer-Solution/assets/113099054/dfe8e23d-14bc-40b5-8f4c-eddbdf3be132)
 
 
