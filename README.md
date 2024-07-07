@@ -1,7 +1,7 @@
 # Project-3-Devops-Tooling-Website-Solution-with-Load-Balancer-Solution
 
 # DEVOPS TOOLING WEBSITE SOLUTION
-![Capture](https://user-images.githubusercontent.com/74002629/183053774-9dddd124-bdb1-4e78-b077-e5877b85fb33.PNG)
+![Capture](https://user-images.githubusercontent.com/74002629/183334671-0641051c-31e2-44e9-950c-b2f7197b6343.PNG)
 
 
 ### Step 1 - Prepare NFS server
